@@ -1,0 +1,54 @@
+.entry-container {
+    margin: 0px auto;
+    margin-top: 70px;
+    /* background-color: #acacac; */
+    /* background-color: linear-gradient(to top, #ffffff, #acacac); */
+    height: 100vh;
+}
+
+.title-entry {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.table-entries {
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.table-entries th {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.table-entries td {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: 'Poiret One', cursive;
+    /* white-space: nowrap; */
+    padding: 15px;
+}
+
+.btn-cancel {
+    background: none;
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    transition: 1s;
+    white-space: nowrap;
+    color: black;
+}
+
+.btn-cancel a {
+    color: black;
+}
+
+.btn-cancel a:hover {
+    color: red;
+    cursor: pointer;
+}

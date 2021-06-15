@@ -1,0 +1,136 @@
+.mainInfo-content {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.about {
+    margin: 0px auto;
+    width: 90%;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+.title-about {
+    margin-top: 0;
+    text-align: left;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-img1 {
+    width: 100%;
+}
+
+.about-img1 img {
+    width: 100%;
+    min-width: 250px;
+}
+
+.about-img2 {
+    width: 100%;
+}
+
+.about-img2 img {
+    width: 100%;
+}
+
+.about-content div {
+    width: 40%;
+    margin: 30px;
+}
+
+.about-text {
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+    margin-top: 0;
+    min-width: 280px;
+}
+
+
+/* СЛАЙДЕР */
+
+[type=radio] {
+    display: none;
+}
+
+#slider {
+    margin-top: 50px;
+    height: 35vw;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.bg-galery {
+    z-index: -10;
+    height: 600px;
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    margin-top: -650px;
+}
+
+#slider label {
+    margin: auto;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    transition: transform 0.4s ease;
+}
+
+#slider img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#s1:checked~#slide4,
+#s2:checked~#slide5,
+#s3:checked~#slide1,
+#s4:checked~#slide2,
+#s5:checked~#slide3 {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
+    transform: translate3d(-40%, 0, -200px);
+}
+
+#s1:checked~#slide5,
+#s2:checked~#slide1,
+#s3:checked~#slide2,
+#s4:checked~#slide3,
+#s5:checked~#slide4 {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(-20%, 0, -100px);
+}
+
+#s1:checked~#slide1,
+#s2:checked~#slide2,
+#s3:checked~#slide3,
+#s4:checked~#slide4,
+#s5:checked~#slide5 {
+    box-shadow: 0 13px 25px 0 rgba(0, 0, 0, .3), 0 11px 7px 0 rgba(0, 0, 0, .19);
+    transform: translate3d(0, 0, 0);
+}
+
+#s1:checked~#slide2,
+#s2:checked~#slide3,
+#s3:checked~#slide4,
+#s4:checked~#slide5,
+#s5:checked~#slide1 {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(20%, 0, -100px);
+}
+
+#s1:checked~#slide3,
+#s2:checked~#slide4,
+#s3:checked~#slide5,
+#s4:checked~#slide1,
+#s5:checked~#slide2 {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
+    transform: translate3d(40%, 0, -200px);
+}

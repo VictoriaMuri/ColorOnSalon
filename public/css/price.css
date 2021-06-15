@@ -1,0 +1,78 @@
+.header-price {
+    width: 100%;
+    background: url(../images/price/bg-price.jpg) 100% 100% no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.title-price1 {
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Oswald', cursive;
+    z-index: 10;
+    top: 40px;
+}
+
+.table-service-price {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.ul-price li {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #8a8a8a;
+    border-width: 1px;
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+}
+
+.ul-price span {
+    background-color: #FFF;
+    padding: 5px;
+    margin: 0;
+    bottom: -5px;
+}
+
+.ul-price .price {
+    position: absolute;
+    right: 0;
+    padding-left: 2px;
+}
+
+.text-price h4 {
+    width: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.text-price p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title-price {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Poiret One', cursive;
+}
+
+.one-service {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ul-price {
+    width: 100%;
+}
+
+.title-price {
+    writing-mode: vertical-rl;
+    color: rgb(160, 142, 102);
+}

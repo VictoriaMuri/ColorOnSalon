@@ -1,0 +1,51 @@
+.contact-address {
+    width: 100%;
+    position: relative;
+    height: 250px;
+    background-color: #505050;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-address-under {
+    width: 100%;
+    position: relative;
+    height: 100px;
+    background-color: rgb(188, 216, 218);
+    margin-top: -32px !important;
+}
+
+.contact-container {
+    width: 100%;
+}
+
+.map {
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-title {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    top: 50px;
+    text-align: right;
+    position: relative;
+}
+
+.address-text {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+    top: 65px;
+    text-align: left;
+    position: relative;
+}
+
+.phone-text {
+    font-family: 'Poiret One', cursive;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 20px;
+}
